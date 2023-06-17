@@ -92,7 +92,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`/public/assests/shanto.jpg`}
+                  src="https://i.ibb.co/FYrJWTC/Photo-Fix-1673875449383.jpg"
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
