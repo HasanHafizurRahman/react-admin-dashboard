@@ -14,6 +14,7 @@ import Invoices from "./pages/invoices";
 // import FAQ from "./pages/faq";
 // import Geography from "./pages/geography";
 import { Route, Routes } from "react-router-dom";
+import Form from "./pages/form";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -30,7 +31,8 @@ function App() {
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
-              {/*<Route path="/form" element={<Form />} />
+              <Route path="/form" element={<Form />} />
+              {/* 
             <Route path="/bar" element={<Bar />} />
             <Route path="/pie" element={<Pie />} />
             <Route path="/line" element={<Line />} />
