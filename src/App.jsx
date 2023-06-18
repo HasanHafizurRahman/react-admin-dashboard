@@ -6,7 +6,7 @@ import Dashboard from "./pages/dashboard";
 import Team from "./pages/team";
 import Contacts from "./pages/contacts";
 import Invoices from "./pages/invoices";
-// import Calendar from "./pages/calender/Calender";
+import Calendar from "./pages/calender/Calender";
 // import Bar from "./pages/bar";
 // import Form from "./pages/form";
 // import Line from "./pages/line";
@@ -37,7 +37,7 @@ function App() {
             <Route path="/pie" element={<Pie />} />
             <Route path="/line" element={<Line />} />
             <Route path="/faq" element={<FAQ />} /> */}
-              {/* <Route path="/calendar" element={<Calendar />} /> */}
+              <Route path="/calendar" element={<Calendar />} />
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
           </main>
